@@ -8,4 +8,4 @@ bigImg1.src = "https://www.jdonline.com.hk/uploadfile/2022/0706/2022070601113552
 p1.appendChild(bigImg1);
 
 img1_Time = new Date();
-console.log("Async Script 1" + img1_Time);
+console.log("Async Script 1 " + img1_Time);
