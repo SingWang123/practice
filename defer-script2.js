@@ -7,5 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let bigImg4 = document.createElement("img");
     bigImg4.src = "https://www.travel.taipei/content/images/articles/377867/1024x768_admin-image-9uxix2an7kcltddfr2nt0g.png";
     p4.appendChild(bigImg4);
+
+    img4_Time = new Date();
+    console.log("Defer Script 2 " + img4_Time);
 });
 
