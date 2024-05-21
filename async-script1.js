@@ -4,5 +4,5 @@ p1.textContent = 'Async Script 1 Loaded';
 document.body.appendChild(p1);
 
 let bigImg1 = document.createElement("img");
-bigImg1.src = "https://png.pngtree.com/thumb_back/fw800/background/20231219/pngtree-winter-beautiful-natural-scenery-background-image_15526237.png";
+bigImg1.src = "https://www.jdonline.com.hk/uploadfile/2022/0706/20220706011135523.png";
 p1.appendChild(bigImg1);
