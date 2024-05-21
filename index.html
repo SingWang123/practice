@@ -10,5 +10,19 @@
         Hello World!!
         123123
     </H1>
+    <div class = "testDiv">
+        您好嗎?
+        <button type = "button" id = "buttonTest">點我點我</button>
+    </div>
 </body>
+<script>
+    buttonTest.addEventListener("click",function(){
+        let testItem = document.createElement("div");
+        let testWord = document.createTextNode("測試測試");
+        let test = document.querySelector(".testDiv");
+        testItem.appendChild(testWord);
+        test.appendChild(testItem);
+    })
+
+</script>
 </html>
